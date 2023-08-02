@@ -1,0 +1,61 @@
+*{
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+header{
+    height: 12vh;
+    background:azure;
+}
+
+section{
+    width: 93vw;
+    height: 100vh;
+    
+}
+
+.section4{
+    height: 200vh;
+
+}
+
+.section4 img{
+    width:20vw;
+    top:50px;
+    position:sticky;
+    border: none;
+}
+
+
+.section1 > h1, h6{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.section4 div{
+    margin-top: 100px;
+}
+
+.section4 div p,h2,a{
+    text-align: right;
+}
+
+.section4 img:nth-child(1){
+    width:20vw;
+    top:150px;
+    position:sticky;
+}
+
+
+
+.listPart{
+    display: flex;
+}
+
+.listPart li{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
