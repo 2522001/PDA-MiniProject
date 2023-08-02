@@ -1,0 +1,39 @@
+* {
+    /* background-color: black;
+    color: white; */
+    padding: 0 2vw;
+}
+
+header {
+    height: 15vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.profile p {
+    font-size: 2rem;
+}
+
+footer img {
+    height: 5vh;
+}
+
