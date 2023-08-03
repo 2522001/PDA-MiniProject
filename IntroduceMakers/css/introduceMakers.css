@@ -112,6 +112,10 @@ a {
         background-color: rgb(255, 255, 255, 5%);
     }
     
+    .profile:hover p {
+        color: #0046FF !important;
+    }
+
     .profile img {
         width: 10vw;
         height: 20vh;
@@ -129,12 +133,10 @@ a {
     }
     
     footer {
-        height: 4vh;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        margin: 2vh 0;
-        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
     }
     
     footer img:first-child {
@@ -242,6 +244,10 @@ a {
         background-color: rgb(255, 255, 255, 5%);
     }
     
+    .profile:hover p {
+        color: #0046FF !important;
+    }
+
     .profile img {
         width: 10vw;
         height: 15vh;
@@ -259,12 +265,10 @@ a {
     }
     
     footer {
-        height: 4vh;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        margin: 2vh 0;
-        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
     }
     
     footer img:first-child {
@@ -325,7 +329,8 @@ a {
     }
     
     .title img {
-        display: none;
+        height: 6vh;
+        padding: 0;
     }
     
     .title_text {
@@ -368,7 +373,7 @@ a {
     }
 
     .profile:hover p {
-        color: #0046FF;
+        color: #0046FF !important;
     }
     
     .profile img {
@@ -387,12 +392,10 @@ a {
     }
     
     footer {
-        height: 4vh;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        margin: 2vh 0;
-        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
     }
     
     footer img:first-child {
