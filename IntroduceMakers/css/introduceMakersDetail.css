@@ -80,7 +80,10 @@ a {
     .title .main {
         font-size: 2rem;
         font-weight: bold;
-        color: #0046FF;
+    }
+
+    .title .main a {
+        color: #0046FF !important;
     }
 
     article {
@@ -193,7 +196,10 @@ a {
     .title .main {
         font-size: 1.8rem;
         font-weight: bold;
-        color: #0046FF;
+    }
+
+    .title .main a {
+        color: #0046FF !important;
     }
 
     article {
@@ -307,6 +313,10 @@ a {
     .title .main {
         font-size: 1.6rem;
         font-weight: bold;
+    }
+
+    .title .main a {
+        color: #0046FF !important;
     }
 
     article {
