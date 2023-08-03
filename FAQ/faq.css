@@ -1,0 +1,84 @@
+@media (min-width: 1024px) {
+  * {
+      background-color: #101012;
+      color: #E4E4E5;
+  }
+
+  body {
+      margin: 0 10vw;
+  }
+  
+  header {
+      height: 11vh;
+      padding: 0;
+  }
+  
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: 0.95rem;
+      padding: 1vh 0;
+  }
+  
+  .home {
+      display: flex;
+      align-items: center;
+      padding: 1vw;
+      font-weight: 700;
+  }
+  
+  .home img {
+      height: 3vh;
+      padding: 0;
+      padding-right: 0.4rem;
+  }
+  
+  nav ul {
+      margin-left: 10vw;
+  }
+  
+  nav li {
+      display: inline-block;
+      padding: 0 2vw;
+  }
+  
+  nav li a {
+      text-decoration: none;
+  }
+  
+  .title {
+      margin: 7vh 0 7vh 7vw;
+      display: flex;
+      align-items: center;
+  }
+  .title img {
+      height: 12vh;
+      padding: 0;
+  }
+  
+  .title_text {
+      display: inline-block;
+      padding: 0;
+  }
+  
+  .title h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding-left: 1.1vw;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 이미지 수직 정렬 */
+    height: 10vh;
+  }
+
+  footer img:first-child {
+      height: 4vh;
+  }
+}
+
+
