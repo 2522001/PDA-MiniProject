@@ -3,6 +3,17 @@
     color: #E4E4E5;
 }
 
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+a {
+    text-decoration: none;
+}
+
 @media (min-width: 1024px) {
     body {
         margin: 0 10vw;
@@ -41,10 +52,6 @@
     nav li {
         display: inline-block;
         padding: 0 2vw;
-    }
-    
-    nav li a {
-        text-decoration: none;
     }
 
     nav li a:hover {
@@ -122,10 +129,12 @@
     }
     
     footer {
-        display: flex;
-        justify-content: center;
-        align-items: center; /* 이미지 수직 정렬 */
-        height: 10vh;
+        height: 4vh;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 2vh 0;
+        transform: translateX(-50%);
     }
     
     footer img:first-child {
@@ -173,10 +182,6 @@
         text-align: right;
         list-style: none;
         padding: 0 2vw;
-    }
-    
-    nav li a {
-        text-decoration: none;
     }
 
     nav li a:hover {
@@ -254,10 +259,12 @@
     }
     
     footer {
-        display: flex;
-        justify-content: center;
-        align-items: center; /* 이미지 수직 정렬 */
-        height: 10vh;
+        height: 4vh;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 2vh 0;
+        transform: translateX(-50%);
     }
     
     footer img:first-child {
@@ -306,11 +313,7 @@
         list-style: none;
         padding: 0 2vw;
     }
-    
-    nav li a {
-        text-decoration: none;
-    }
-
+ 
     nav li a:hover {
         color: #0046FF;
     }
@@ -384,10 +387,12 @@
     }
     
     footer {
-        display: flex;
-        justify-content: center;
-        align-items: center; /* 이미지 수직 정렬 */
-        height: 10vh;
+        height: 4vh;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 2vh 0;
+        transform: translateX(-50%);
     }
     
     footer img:first-child {
