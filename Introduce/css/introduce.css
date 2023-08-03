@@ -2,24 +2,29 @@
     * {
         background-color: #101012;
         color: #E4E4E5;
-        padding: 0 2vw;
+    }
+
+    body {
+        margin: 0 10vw;
     }
     
     header {
         height: 11vh;
+        padding: 0;
     }
     
     nav {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        font-size: 1rem;
+        font-size: 0.95rem;
+        padding: 1vh 0;
     }
     
     .home {
         display: flex;
         align-items: center;
-        padding: 1rem;
+        padding: 1vw;
         font-weight: 700;
     }
     
@@ -30,12 +35,12 @@
     }
     
     nav ul {
-        margin-left: 12rem;
+        margin-left: 9vw;
     }
     
     nav li {
         display: inline-block;
-        padding: 0 1rem;
+        padding: 0 2vw;
     }
     
     nav li a {
@@ -43,7 +48,7 @@
     }
     
     .title {
-        margin: 7vh 0 7vh 3vh;
+        margin: 7vh 0 7vh 7vw;
         display: flex;
         align-items: center;
     }
@@ -60,18 +65,17 @@
     
     .title h1 {
         font-size: 2rem;
-        font-weight: 900;
+        font-weight: bold;
         margin-bottom: 0;
         margin-left: 0;
-        padding-left: 0.8rem;
+        padding-left: 1.1vw;
     }
     
     .title p {
         font-size: 1rem;
-        font-weight: 500;
         color: #9E9EA3;
-        margin-top: 0.5rem;
-        padding-left: 1.1rem;
+        margin-top: 0.7vh;
+        padding-left: 1.3vw;
     }
     
     .profiles {
@@ -98,16 +102,15 @@
     
     .profile img {
         width: 10vw;
-        height: 10vw;
+        height: 18vh;
         overflow: hidden;
         object-fit: scale-down;
-        margin-bottom: 1rem;
+        margin-bottom: 1vh;
         background-color: transparent;
     }
     
     .profile p {
         font-size: 1.1rem;
-        font-weight: 600;
         margin: 0;
         background-color: transparent;
     }
@@ -116,6 +119,7 @@
         display: flex;
         justify-content: center;
         align-items: center; /* 이미지 수직 정렬 */
+        height: 10vh;
     }
     
     footer img:first-child {
