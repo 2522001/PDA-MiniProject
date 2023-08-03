@@ -1,0 +1,365 @@
+* {
+    background-color: #101012;
+    color: #E4E4E5;
+}
+
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin: 0 10vw;
+    }
+    
+    header {
+        height: 11vh;
+        padding: 0;
+    }
+    
+    nav {
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        font-size: 0.85rem;
+        padding: 1vh 0;
+    }
+    
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 1vw;
+        padding-top: 2vh;
+        font-weight: 700;
+    }
+    
+    .home img {
+        height: 3vh;
+        padding: 0;
+        padding-right: 0.6vw;
+    }
+    
+    nav ul {
+        margin-left: 29vw;
+    }
+    
+    nav li {
+        text-align: right;
+        list-style: none;
+        padding: 0 2vw;
+    }
+
+    nav li a:hover {
+        color: #0046FF;
+    }
+    
+    .section {
+        margin: 7vh 0 7vh 7vw;
+    }
+
+    .title {
+        padding: 5vh;
+    }
+    
+    .title li {
+        display: inline-block;
+        padding: 1vw;
+    }
+
+    .title li a:hover {
+        color: #0046FF;
+    }
+
+    .title .main {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .title .main a {
+        color: #0046FF !important;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7vh;
+    }
+
+    article img {
+        width: 20vw;
+    }
+
+    .tags {
+        width: 40vw;
+    }
+
+    .tags li {
+        display: inline-block;
+        list-style: none;
+        margin: 1vh;
+        padding: 1vh 1.5vw;
+        background-color: #17171B;
+        border-radius: 1rem;
+    }
+
+    .tags li:hover {
+        background-color: rgb(255, 255, 255, 5%);
+        color: #0046FF;
+    }
+    
+    footer {
+        height: 4vh;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 2vh 0;
+        transform: translateX(-50%);
+    }
+    
+    footer img:first-child {
+        height: 4vh;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width:1023px) {
+    body {
+        margin: 0 10vw;
+    }
+    
+    header {
+        height: 11vh;
+        padding: 0;
+    }
+    
+    nav {
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        font-size: 0.85rem;
+        padding: 1vh 0;
+    }
+    
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 1vw;
+        padding-top: 2vh;
+        font-weight: 700;
+    }
+    
+    .home img {
+        height: 3vh;
+        padding: 0;
+        padding-right: 0.6vw;
+    }
+    
+    nav ul {
+        margin-left: 29vw;
+    }
+    
+    nav li {
+        text-align: right;
+        list-style: none;
+        padding: 0 2vw;
+    }
+
+    nav li a:hover {
+        color: #0046FF;
+    }
+    
+    .section {
+        margin: 7vh 0 7vh 7vw;
+    }
+
+    .title {
+        padding: 5vh;
+    }
+    
+    .title li {
+        display: inline-block;
+        padding: 1vw;
+        font-size: 0.9rem;
+    }
+
+    .title li a:hover {
+        color: #0046FF;
+    }
+
+    .title .main {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .title .main a {
+        color: #0046FF !important;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7vh;
+    }
+
+    article img {
+        width: 20vw;
+    }
+
+    .tags {
+        width: 40vw;
+    }
+
+    .tags li {
+        display: inline-block;
+        list-style: none;
+        margin: 1vh;
+        padding: 1vh 1.5vw;
+        background-color: #17171B;
+        border-radius: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .tags li:hover {
+        background-color: rgb(255, 255, 255, 5%);
+        color: #0046FF;
+    }
+    
+    footer {
+        height: 4vh;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 2vh 0;
+        transform: translateX(-50%);
+    }
+    
+    footer img:first-child {
+        height: 4vh;
+    }
+}
+
+@media all and (max-width: 767px) {
+    body {
+        margin: 0 10vw;
+    }
+    
+    header {
+        height: 11vh;
+        padding: 0;
+    }
+    
+    nav {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        font-size: 0.85rem;
+        padding: 1vh 0;
+    }
+    
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 1vw;
+        padding-top: 2vh;
+        font-weight: 700;
+    }
+    
+    .home img {
+        height: 3vh;
+        padding: 0;
+        padding-right: 0.6vw;
+    }
+    
+    nav ul {
+        margin-left: 5vw;
+    }
+    
+    nav li {
+        text-align: right;
+        list-style: none;
+        padding: 0 2vw;
+    }
+ 
+    nav li a:hover {
+        color: #0046FF;
+    }
+    
+    .section {
+        margin: 7vh 0 7vh 7vw;
+    }
+
+    .title {
+        padding: 5vh;
+    }
+    
+    .title li {
+        display: inline-block;
+        padding: 1vw;
+        font-size: 0.8rem;
+    }
+
+    .title li a:hover {
+        color: #0046FF;
+    }
+
+    .title .main {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .title .main a {
+        color: #0046FF !important;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4vh;
+    }
+
+    article img {
+        width: 30vw;
+    }
+
+    .tags {
+        width: 70vw;
+    }
+
+    .tags li {
+        display: inline-block;
+        list-style: none;
+        margin: 1vh;
+        padding: 1vh 1.5vw;
+        background-color: #17171B;
+        border-radius: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .tags li:hover {
+        background-color: rgb(255, 255, 255, 5%);
+        color: #0046FF;
+    }
+    
+    footer {
+        height: 4vh;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin: 2vh 0;
+        transform: translateX(-50%);
+    }
+    
+    footer img:first-child {
+        height: 4vh;
+    }
+}

@@ -3,6 +3,17 @@
     color: #E4E4E5;
 }
 
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+a {
+    text-decoration: none;
+}
+
 @media (min-width: 1024px) {
     body {
         margin: 0 10vw;
@@ -41,10 +52,6 @@
     nav li {
         display: inline-block;
         padding: 0 2vw;
-    }
-    
-    nav li a {
-        text-decoration: none;
     }
 
     nav li a:hover {
@@ -124,7 +131,7 @@
     footer {
         display: flex;
         justify-content: center;
-        align-items: center; /* 이미지 수직 정렬 */
+        align-items: center;
         height: 10vh;
     }
     
@@ -173,10 +180,6 @@
         text-align: right;
         list-style: none;
         padding: 0 2vw;
-    }
-    
-    nav li a {
-        text-decoration: none;
     }
 
     nav li a:hover {
@@ -256,7 +259,7 @@
     footer {
         display: flex;
         justify-content: center;
-        align-items: center; /* 이미지 수직 정렬 */
+        align-items: center;
         height: 10vh;
     }
     
@@ -306,11 +309,7 @@
         list-style: none;
         padding: 0 2vw;
     }
-    
-    nav li a {
-        text-decoration: none;
-    }
-
+ 
     nav li a:hover {
         color: #0046FF;
     }
@@ -378,7 +377,7 @@
     }
     
     .profile p {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         margin: 0 1rem 0.3rem 1rem;
         background-color: transparent;
     }
@@ -386,7 +385,7 @@
     footer {
         display: flex;
         justify-content: center;
-        align-items: center; /* 이미지 수직 정렬 */
+        align-items: center;
         height: 10vh;
     }
     
