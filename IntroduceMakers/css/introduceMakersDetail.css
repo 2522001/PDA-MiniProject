@@ -26,9 +26,9 @@ a {
     
     nav {
         display: flex;
-        align-items:flex-start;
+        align-items: center;
         justify-content: space-evenly;
-        font-size: 0.85rem;
+        font-size: 0.95rem;
         padding: 1vh 0;
     }
     
@@ -36,7 +36,6 @@ a {
         display: flex;
         align-items: center;
         padding: 1vw;
-        padding-top: 2vh;
         font-weight: 700;
     }
     
@@ -47,12 +46,11 @@ a {
     }
     
     nav ul {
-        margin-left: 29vw;
+        margin-left: 9vw;
     }
     
     nav li {
-        text-align: right;
-        list-style: none;
+        display: inline-block;
         padding: 0 2vw;
     }
 
