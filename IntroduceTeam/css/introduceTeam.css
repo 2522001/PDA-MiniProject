@@ -89,42 +89,48 @@ a {
         padding-left: 1.3vw;
     }
     
-    .profiles {
+    .boxes {
         display: flex;
         justify-content: center;
-        margin: 12vh 0;
+        flex-direction: column;
+        margin: 8vh 8vw;
     }
-    
-    .profile {
+
+    .box {
         text-align: center;
         background-color: #17171B;
         border-radius: 1rem;
         padding: 2.3vw;
         margin: 1vw;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     
-    .profile:hover {
-        padding-bottom: 20px;
-        transform: translate(0, -20px);
+    .box:hover {
         background-color: rgb(255, 255, 255, 5%);
     }
-    
-    .profile img {
-        width: 10vw;
-        height: 20vh;
-        overflow: hidden;
-        object-fit: scale-down;
-        margin-bottom: 1vh;
+
+    .box img {
+        margin: 0;
         background-color: transparent;
     }
     
-    .profile p {
+    .box img {
+        width: 60vw;
+    }
+
+    .box p {
         font-size: 1.1rem;
         margin: 0;
-        margin-bottom: 0.5rem;
+        background-color: transparent;
+    }
+
+    .box:hover p {
+        color: #0046FF !important;
+    }
+
+    .box p a {
         background-color: transparent;
     }
     
@@ -217,13 +223,13 @@ a {
         padding-left: 1.3vw;
     }
     
-    .profiles {
+    .boxs {
         display: flex;
         justify-content: center;
         margin: 16vh 0;
     }
     
-    .profile {
+    .box {
         text-align: center;
         background-color: #17171B;
         border-radius: 1rem;
@@ -234,13 +240,13 @@ a {
         align-items: center;
     }
     
-    .profile:hover {
+    .box:hover {
         padding-bottom: 20px;
         transform: translate(0, -20px);
         background-color: rgb(255, 255, 255, 5%);
     }
     
-    .profile img {
+    .box img {
         width: 10vw;
         height: 15vh;
         overflow: hidden;
@@ -249,7 +255,7 @@ a {
         background-color: transparent;
     }
     
-    .profile p {
+    .box p {
         font-size: 1rem;
         margin: 0;
         margin-bottom: 0.3rem;
@@ -340,14 +346,14 @@ a {
         display: none;
     }
     
-    .profiles {
+    .boxes {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 5vh 0;
     }
     
-    .profile {
+    .box {
         text-align: center;
         background-color: #17171B;
         border-radius: 1rem;
@@ -359,15 +365,15 @@ a {
         align-items: center;
     }
     
-    .profile:hover {
+    .box:hover {
         background-color: rgb(255, 255, 255, 5%);
     }
 
-    .profile:hover p {
+    .box:hover p {
         color: #0046FF;
     }
     
-    .profile img {
+    .box img {
         width: 20vw;
         height: 15vh;
         overflow: hidden;
@@ -376,7 +382,7 @@ a {
         background-color: transparent;
     }
     
-    .profile p {
+    .box p {
         font-size: 0.9rem;
         margin: 0 1rem 0.3rem 1rem;
         background-color: transparent;
