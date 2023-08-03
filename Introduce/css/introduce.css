@@ -93,8 +93,6 @@
     }
     
     .profile:hover {
-        /* border: 1px solid #0044FF; */
-        /* box-shadow: 0 0 0 1px #0044FF inset; 아웃라인으로 인해 레이아웃이 움직이는 이슈 해결 */
         padding-bottom: 2rem;
         transform: translate(0, -1rem);
         background-color: rgb(255, 255, 255, 10%);
