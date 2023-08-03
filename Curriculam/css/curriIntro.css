@@ -5,7 +5,7 @@
     box-sizing: border-box;
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
-    border: 1px solid rgb(149, 255, 99);
+
 }
 
 
@@ -57,7 +57,8 @@
     }
     
     section{
-        width: 93vw;
+        padding: 0 2vw;
+        width: 100%;
         height: 100vh;
         padding-top: 3vh;
     }
@@ -93,6 +94,11 @@
 
     .section1 h1{
         font-size: 4.5vw;
+    }
+
+    .section1 h1, .section1 h6{
+        text-align: center;
+        margin-bottom: 5vh;
     }
     
     
@@ -187,14 +193,22 @@
 
 
 
-    
+    .section2{
+        background-image: linear-gradient(to bottom left , rgba(0, 0, 0, 0),rgba(16, 16, 18, 1), rgba(16, 16, 18, 1)), url('../../Images/stockBg.jpg');
+        background-repeat: no-repeat;
+        background-position-x: 30vw;
+        background-size: contain;
+        padding-top: 10vh;
+    }
 
-
-    
+    .section2 h2{
+        background-color: transparent;        
+    }
     
     .section2 h6{
         color:#0046FF;
         font-weight: 800;
+        background-color: transparent;
     }
     
     
@@ -203,11 +217,13 @@
     }
     
     .section2 .listFull{
+        background-color: transparent;
         width: 100%;
         height: 50vh;
         padding-inline: 10px;
         display: flex;
         flex-direction: column;
+        
     }
 
     .listFull li{
@@ -219,22 +235,32 @@
     }
 
     .listFull a{
+        z-index: 1;
+        margin: 0;
+        padding: 1vh 0 1vh 0;
         display: flex;
         width: 20%;
         font-size: 1vw;
-        font-weight: 600;
+        font-weight: 400;
         justify-content: center;
         align-items: center;
-        border-radius: 20px;
+        border-radius:20px 0 0 20px ;
         background-color: #0046FF;
-        box-shadow: 1px 1px 1px 3px rgb(61, 61, 61);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 
     .listFull .subList{
+        margin: 0;
+        padding: 1vh 0 1vh 0;
         width: 70%;
-        font-size: 0.7vw;
+        font-size: 0.8vw;
+        background-color: aliceblue;
     }
 
+    .listFull .subList li{
+        background-color: transparent;
+        color:black;
+    }
 
 
     
@@ -245,9 +271,7 @@
         border: 1px solid black;
     }
 
-    .section2 article section{
-        display: none;
-    }
+
 
     
     .section3 ul{
@@ -255,69 +279,152 @@
         width: 70vw;
         display: flex;
         justify-content: space-around;
+        background-color: transparent;
         
     }
+
+    .section3 .listMento{
+        margin-top: 3vh;
+    }
     
-    .section3 ul li{
+    .section3{
+        background-color: #f9fafb;
+    }
+
+    .section3 h2{
+        color: black;
+        background-color: transparent;
+    }
+
+    .section3 p{
+        color: black;
+    }
+
+    .section3 .listMento li{
+        background-color: transparent;
         width: 17vw;
-        height: 25vw;
+        height: 20vw;
         display: flex;
         flex-direction: column;
         border-radius: 20px;
-        border: 1px solid black;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
     
     .section3 ul li h3{
+        background-color: transparent;
         width: 100%;
         padding:0.7vw 0.1vw;
         margin-bottom: 3vh;
-        background-color: aqua;
+        background-color: #0046FF;
         text-align: center;
         border-radius: 20px 20px 0 0;
-        border: 1px solid black;
     }
     
     .section3 ul li img{
-        width: 7vw;
-        height: 7vw;
+        width: 10vw;
+        height: 10vw;
         padding:1vw;
-        border: 1px solid black;
         border-radius: 100px;
+        background-color: transparent;
     }
     
     .section3 ul li p{
-        margin:1vw 2vw;
+        margin:2vw 1vw;
+        text-align: center;
     }
- 
+
+    .section3 .extra {
+        width: 80vw;
+        background-color: transparent;
+        overflow-x: hidden; /* 스크롤 막기 */
+        margin-top: 5vh;
+    }
+    
+    .extra .edulist {
+        margin-top: 2vw;
+
+        max-width: 100vw; /* 최대 높이 설정 */
+        white-space: nowrap; /* 가로 스크롤을 위한 줄 바꿈 제거 */
+        animation-name: scrollAnimation;
+        animation-duration:5s;
+          animation-duration: leaner;
+        animation-iteration-count:infinite;
+          animation-direction:alternate;
+          animation-fill-mode: forwards;
+    }
+    .extra h3{
+        background-color: transparent;
+        color: #101012;
+    }
+
+      
+    .edulist li {
+        color: #0046FF;
+        font-size: 20px;
+        margin-left: 1vw;
+        padding: 5px 10px;
+        text-align: center;
+        border: 1px solid #0046FF;
+        background-color: #0044ff2d;
+        border-radius: 10px;
+      }
+
+      .edulist li p {
+        white-space: nowrap;
+        color: #0046FF;
+        font-size: 20px;
+      }
+
+      @keyframes scrollAnimation {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-10%); /* 이동할 거리 설정 (예: -100%로 왼쪽으로 이동) */
+        }
+    }
+
     .section4{
-        height: 200vh;
+        height: 250vh;       
     }
     
     .section4 div {
-        display: inline-block;
+        display: block;
         width: 50vw;
+        right: 0;
+        margin-right: 10vw;
+    }
+
+    .section4 div p{
+        text-align: right;
+    }
+
+    .section4 div a{
+        text-align: right;
+        width: 100vw;
     }
     
     
     .section4 img[alt="쏠"]{
+        z-index: 1;
         width:20vw;
+        margin-left: 5vw;
         position:sticky;
-
-        top:10vh;
+        top:30vh;
         border: none;
     }
     .section4 img[alt="사원증"]{
+        z-index: 2;
         width:20vw;
-        display: none;
-
-        top:50px;
+        margin-left: 5vw;
+        margin-top: 20vw;
+        top:10vh;
         border: none;
+        position:sticky;
+        background-color: transparent;
     }
     
-    .section1 h1, .section1 h6{
-        text-align: center;
-        margin-bottom: 5vh;
-    }
+
     
     .section4 div .section4 p, .section4 h2,.section4 a{
         text-align: right;
@@ -329,8 +436,28 @@
        
     }
     
-    .endingMent{
-        top:50vh;
+    .endingMent {
+        width: 100vw;
+        height: 10vh;
+        top: 50vh;
         position: sticky;
-    }
+        margin-right: 10vw;
+      }
+
+      .endingMent a{
+        padding: 1vw;
+        width: 1vw;
+        height: 1vh;
+        border-radius: 20px;
+        border: 1px solid white;
+        color: #0046FF;
+      }
+
+      .endingMent a:hover{
+        border: 3px solid white;
+        background-color: #0044ff69;
+        font-weight: 700;
+      }
+      
+      
 }
