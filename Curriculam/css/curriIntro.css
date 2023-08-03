@@ -1,61 +1,185 @@
-*{
-    border: 1px solid black;
-    margin: 0 auto;
-}
 
-header{
-    height: 12vh;
-    background:azure;
-}
 
-section{
-    width: 93vw;
-    height: 100vh;
+
+
+@media screen and (min-width:1024px)
+{
+    *{
+        border: 1px solid black;
+        margin: 0 auto;
+    }
     
+    header{
+        height: 12vh;
+        background:azure;
+    }
+    
+    section{
+        width: 93vw;
+        height: 100vh;
+        padding-top: 3vh;
+    }
+    
+    li{
+        display: inline-block;
+    }
+    
+    h6{
+        font-size: 1vw;
+    }
+    
+    
+    h2{
+        font-size: 3vw;
+        margin-bottom: 1.5vw;
+    }
+    
+    h3{
+        font-size: 1.5vw;
+    }
+    
+    p{
+        font-size: 0.8vw;
+        margin-bottom: 1.5vh;
+    }
+    
+    .section1 h1{
+        font-size: 5vw;
+    }
+    
+    
+    
+    .listPart{
+        display: flex;
+    }
+    
+    .listPart li{
+        width: 15vw;
+        height: 15vw;
+        border-radius: 20px;
+    }
+    
+    .listPart li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* 부모 요소의 높이에 맞게 조절 */
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    .section2 .container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .section2 ul{
+        flex-direction: column;
+        width: 25vw;
+        height: 50vh;
+        border-radius: 20px;
+        padding-inline: 10px;
+    }
+    
+    .section2 ul li{
+        display: flex;
+        width: 100%;
+        height: 8vh;
+        margin: 3vh 0;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .section2 ul li a{
+        width: 90%; /* 필요한 경우 너비 설정 */
+        height: 90%; /* 필요한 경우 높이 설정 */
+        font-size: 2vh;
+        margin: 3vh 0;
+    
+        display: flex;
+        justify-content: center; /* 수평 중앙 배치 */
+        align-items: center; /* 수직 중앙 배치 */
+    
+    
+    }
+    
+    .section2 article{
+        width: 60vw;
+        height: 50vh;
+    }
+    
+    .section3 ul{
+        margin-top: 10vh;
+        width: 70vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .section3 ul li{
+        width: 15vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section3 ul li h3{
+        margin: 1vh 1vw;
+        text-align: center;
+    }
+    
+    .section3 ul li img{
+        width: 7vw;
+        height: 7vw;
+        padding:1vw;
+    }
+    
+    .section3 ul li p{
+        margin:1vw 2vw;
+    }
+    
+    .section4{
+        height: 200vh;
+    }
+    
+    
+    
+    .section4 img{
+        width:20vw;
+        top:50px;
+        border: none;
+    }
+
+
+    
+    
+    .section1 h1, .section1 h6{
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    
+    .section4 div{
+        margin-top: 100px;
+    }
+    
+    .section4 div .section4 p, .section4 h2,.section4 a{
+        text-align: right;
+    }
+    
+    .section4 img:nth-child(1){
+        width:20vw;
+        top:150px;
+        position:sticky;
+    }
+    
+    .endingMent{
+        width:100%;
+        top:150px;
+        position:flex;
+    }
 }
-
-.section4{
-    height: 200vh;
-
-}
-
-.section4 img{
-    width:20vw;
-    top:50px;
-    position:sticky;
-    border: none;
-}
-
-
-.section1 > h1, h6{
-    text-align: center;
-    margin-bottom: 5vh;
-}
-
-.section4 div{
-    margin-top: 100px;
-}
-
-.section4 div p,h2,a{
-    text-align: right;
-}
-
-.section4 img:nth-child(1){
-    width:20vw;
-    top:150px;
-    position:sticky;
-}
-
-
-
-.listPart{
-    display: flex;
-}
-
-.listPart li{
-    list-style: none;
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-}
-
