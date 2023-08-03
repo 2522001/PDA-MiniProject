@@ -100,10 +100,10 @@ a {
         text-align: center;
         background-color: #17171B;
         border-radius: 1rem;
-        padding: 2.3vw;
+        padding: 0;
         margin: 1vw;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     
@@ -123,7 +123,12 @@ a {
     .box p {
         font-size: 1.1rem;
         margin: 0;
+        margin-top: 3vw;
         background-color: transparent;
+    }
+
+    .link p {
+        margin-bottom: 3vw;
     }
 
     .box:hover p {
@@ -223,17 +228,18 @@ a {
         padding-left: 1.3vw;
     }
     
-    .boxs {
+    .boxes {
         display: flex;
         justify-content: center;
-        margin: 16vh 0;
+        flex-direction: column;
+        margin: 8vh 8vw;
     }
-    
+
     .box {
         text-align: center;
         background-color: #17171B;
         border-radius: 1rem;
-        padding: 2.3vw;
+        padding: 0;
         margin: 1vw;
         display: flex;
         flex-direction: column;
@@ -241,24 +247,34 @@ a {
     }
     
     .box:hover {
-        padding-bottom: 20px;
-        transform: translate(0, -20px);
         background-color: rgb(255, 255, 255, 5%);
     }
-    
+
     .box img {
-        width: 10vw;
-        height: 15vh;
-        overflow: hidden;
-        object-fit: scale-down;
-        margin-bottom: 1vh;
+        margin: 0;
         background-color: transparent;
     }
     
+    .box img {
+        width: 60vw;
+    }
+
     .box p {
         font-size: 1rem;
         margin: 0;
-        margin-bottom: 0.3rem;
+        margin-top: 3vw;
+        background-color: transparent;
+    }
+
+    .link p {
+        margin-bottom: 3vw;
+    }
+
+    .box:hover p {
+        color: #0046FF !important;
+    }
+
+    .box p a {
         background-color: transparent;
     }
     
@@ -327,7 +343,8 @@ a {
     }
     
     .title img {
-        display: none;
+        height: 6vh;
+        padding: 0;
     }
     
     .title_text {
@@ -348,43 +365,51 @@ a {
     
     .boxes {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        margin: 5vh 0;
+        flex-direction: column;
+        margin: 5vh 8vw;
     }
-    
+
     .box {
         text-align: center;
         background-color: #17171B;
         border-radius: 1rem;
-        padding: 2.3vw;
-        margin: 1vh 8vw;
+        padding: 0;
+        margin: 1vw;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
-    
+
     .box:hover {
         background-color: rgb(255, 255, 255, 5%);
     }
 
-    .box:hover p {
-        color: #0046FF;
-    }
-    
     .box img {
-        width: 20vw;
-        height: 15vh;
-        overflow: hidden;
-        object-fit: scale-down;
-        margin-bottom: 1vh;
+        margin: 0;
         background-color: transparent;
     }
     
+    .box img {
+        width: 60vw;
+    }
+
     .box p {
         font-size: 0.9rem;
-        margin: 0 1rem 0.3rem 1rem;
+        margin: 0;
+        margin-top: 3vw;
+        background-color: transparent;
+    }
+
+    .link p {
+        margin-bottom: 3vw;
+    }
+
+    .box:hover p {
+        color: #0046FF !important;
+    }
+
+    .box p a {
         background-color: transparent;
     }
     
