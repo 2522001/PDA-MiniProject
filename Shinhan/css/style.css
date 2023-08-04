@@ -634,88 +634,10 @@ footer p {
     nav li a:hover {
         color: #0046FF;
     }
-      
-    
-    /* header {
-        height: 11vh;
-    }
-
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        font-size: 0.95rem;
-        padding: 1vh 0;
-    }
-
-    .home {
-        display: flex;
-        align-items: center;
-        padding: 1vw;
-        font-weight: 700;
-    }
-
-    .home img {
-        height: 3vh;
-        padding: 0;
-        padding-right: 0.6vw;
-    }
-
-    nav ul {
-        margin-left: 9vw;
-    }
-
-    nav li {
-        display: inline-block;
-        padding: 0 2vw;
-    }
-
-    nav li a:hover {
-        color: #0046FF;
-    } */
 }
 
 /* Tablet */
 @media all and (min-width: 768px) and (max-width:1023px) {
-    /* header {
-        height: 11vh;
-        padding: 0;
-    }
-
-    nav {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        font-size: 0.8rem;
-        padding: 1vh 0;
-    }
-
-    .home {
-        display: flex;
-        align-items: center;
-        padding: 1vw;
-        font-weight: 700;
-    }
-
-    .home img {
-        height: 3vh;
-        padding: 0;
-        padding-right: 0.6vw;
-    }
-
-    nav ul {
-        margin-left: 29vw;
-    }
-
-    nav li {
-        text-align: right;
-        list-style: none;
-        padding: 0 2vw;
-    }
-
-    nav li a:hover {
-        color: #0046FF;
-    } */
 
     body {
         margin: 0;
@@ -762,47 +684,6 @@ footer p {
 
 /* Mobile */
 @media all and (max-width: 768px) {
-    /* header {
-        height: 11vh;
-        padding: 0;
-    }
-
-    nav {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        font-size: 0.5rem;
-        padding: 1vh 0;
-    }
-
-    .home {
-        display: flex;
-        align-items: center;
-        padding: 1vw;
-        padding-top: 2vh;
-        font-weight: 700;
-    }
-
-    .home img {
-        height: 3vh;
-        padding: 0;
-        padding-right: 0.6vw;
-    }
-
-    nav ul {
-        margin-left: 5vw;
-    }
-
-    nav li {
-        text-align: right;
-        list-style: none;
-        padding: 0 2vw;
-    }
-
-    nav li a:hover {
-        color: #0046FF;
-        font-weight: bold;
-    } */
 
     .home {
         display: flex;
