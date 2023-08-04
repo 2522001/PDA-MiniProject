@@ -112,7 +112,7 @@ header {
     color: var(--lightgray);
 }
 
-.intro-option button.normal {
+button.normal {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
