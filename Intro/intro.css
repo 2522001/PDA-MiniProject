@@ -1,0 +1,343 @@
+* {
+	color: #E4E4E5;
+}
+
+br.break-m, br.break-t {
+	display: none;
+}
+
+body {
+  background-color: #101013;
+}
+
+footer div {
+  background-color: #1a1f27;
+  padding: 20px;
+}
+
+footer p {
+  color: #5f6670;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  body {
+      margin: 0 10vw;
+  }
+
+  header {
+    height: 11vh;
+    color: #E4E4E5;
+  }
+
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: 0.95rem;
+      padding: 1vh 0;
+      color: #E4E4E5;
+  }
+
+  .home {
+      display: flex;
+      align-items: center;
+      padding: 1vw;
+      font-weight: 700;
+      color: #E4E4E5;
+  }
+
+  .home img {
+      height: 3vh;
+      padding: 0;
+      padding-right: 0.4rem;
+  }
+
+  nav ul {
+      margin-left: 10vw;
+  }
+
+  nav li {
+      display: inline-block;
+      padding: 0 2vw;
+  }
+
+  nav li a {
+      text-decoration: none;
+      color: #E4E4E5;
+  }
+
+  nav li a:hover {
+      color: #0046FF;
+  }
+  
+  .container {
+    margin: 4vh 1vw ;
+    display: flex;
+  }
+
+  .container img{
+    width: 8vw;
+    height: auto;
+    margin-top: 1vw 2vh;
+    background: transparent;
+  }
+
+  .container img:hover{
+    transform: translate(0, -20px);
+  }
+
+  .title{
+    margin: 20vh 8vw 7vh 7vw;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    color: #E4E4E5;
+  }  
+
+  #icon1{    
+    position: absolute; top: 50%; left: 8%;
+  }
+  #icon2{  
+    position: absolute; top: 60%; left: 20%;
+  }
+  #icon3{
+    position: absolute; top: 50%; left: 30%;
+  }
+  #icon4{
+    position: absolute; top: 60%; left: 45%;
+  }
+  #icon5{
+    position: absolute; top: 50%; left: 60%;
+  }
+  #icon6{
+    position: absolute; top: 60%; left: 70%;
+  }
+  #icon7{
+    position: absolute; top: 50%; left: 80%;
+  }
+
+}
+
+@media all and (min-width: 768px) and (max-width:1023px) {
+  
+  body {
+    margin: 0 10vw;
+    padding: 0;
+  }
+
+  header {
+    height: 11vh;
+    padding: 0;
+    color: #E4E4E5;
+  }
+
+  .home {
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    padding-top: 2vh;
+    font-weight: 700;
+  }
+
+  .home img {
+      height: 3vh;
+      padding: 0;
+      padding-right: 0.6vw;
+  }
+
+  nav ul {
+    margin-left: 10vw;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0 2vw;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: #E4E4E5;
+  }
+
+  nav li a:hover {
+    color: #0046FF;
+  }
+
+  .title{
+    margin: 16vh 8vw 7vh 7vw;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #E4E4E5;
+  }  
+
+  br.break-t {
+    display: inline;
+  }
+
+  .container img {
+    width: 8vw;
+    height: auto;
+    margin: 1vw 2vh;
+    background: transparent;
+  }
+
+  .container img:hover{
+    transform: translate(0, -20px);
+  }
+
+  #icon1{    
+    position: absolute; top: 50%; left: 8%;
+  }
+  #icon2{  
+    position: absolute; top: 60%; left: 20%;
+  }
+  #icon3{
+    position: absolute; top: 50%; left: 30%;
+  }
+  #icon4{
+    position: absolute; top: 60%; left: 45%;
+  }
+  #icon5{
+    position: absolute; top: 50%; left: 60%;
+  }
+  #icon6{
+    position: absolute; top: 60%; left: 70%;
+  }
+  #icon7{
+    position: absolute; top: 50%; left: 80%;
+  }
+
+
+}
+
+@media all and (max-width: 767px) {
+  body {
+      margin: 0 10vw;
+  }
+  
+  header {
+      height: 11vh;
+      padding: 0;
+      color: #E4E4E5;
+  }
+
+  nav {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      font-size: 0.85rem;
+      padding: 1vh 0;
+      color: #E4E4E5;
+  }
+  
+  .home {
+      display: flex;
+      align-items: center;
+      padding: 1vw;
+      padding-top: 2vh;
+      font-weight: 700;
+      color: #E4E4E5;
+  }
+  
+  .home img {
+      height: 1vh;
+      padding: 0;
+      padding-right: 0.6vw;
+  }
+  
+  nav ul {
+      margin-left: 5vw;
+  }
+  
+  nav li {
+      text-align: right;
+      list-style: none;
+      padding: 0 2vw;
+      color: #E4E4E5;
+  }
+  
+  nav li a {
+      text-decoration: none;
+      color: #E4E4E5;
+  }
+
+  nav li a:hover {
+      color: #0046FF;
+  }
+
+  .title{
+    margin: 20vh 8vw 7vh 7vw;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #E4E4E5;
+    white-space: normal;  /*창의 크기가 좁아졌을 때 자동으로 줄 바꿈*/
+  }  
+
+  br.break-m, br.break-t {
+    display: inline-block;
+  }
+
+  .container {
+    margin: 4vh 1vw ;
+    display: flex;
+  }
+
+  .container img {
+    width: auto;
+    height: 50vh;
+    margin: 1vw 2vh;
+    display: inline-block;
+    background: transparent;
+  }
+
+  .container img:hover{
+    transform: translate(0, -20px);
+  }
+
+  #icon1{    
+    position: absolute; bottom: -1vh; left: 45vw;
+    z-index: -1;
+  }
+  #icon2{ 
+    display: none; 
+  }
+  #icon3{
+    display: none;
+  }
+  #icon4{
+    position: absolute;  bottom: 60vh; left: -10vw;
+    width: auto;
+    height: 25vh;
+    z-index: -1;
+  }
+  #icon5{
+    display: none;
+  }
+  #icon6{
+    display: none;
+  }
+  #icon7{
+    display: none;
+  }
+}
