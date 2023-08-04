@@ -10,6 +10,21 @@ body {
   background-color: #101013;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #101013;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.container {
+  height: 35vh;
+}
+
 footer div {
   background-color: #1a1f27;
   padding: 20px;
@@ -19,14 +34,21 @@ footer p {
   color: #5f6670;
   font-size: 13px;
   font-style: normal;
-  line-height: 20px;
+  line-height: 10px;
   text-align: center;
 }
 
+.mark {
+  width: 150px;
+}
+
+.logo-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 1024px) {
-  body {
-      margin: 0 10vw;
-  }
 
   header {
     height: 11vh;
@@ -128,11 +150,6 @@ footer p {
 }
 
 @media all and (min-width: 768px) and (max-width:1023px) {
-  
-  body {
-    margin: 0 10vw;
-    padding: 0;
-  }
 
   header {
     height: 11vh;
@@ -189,6 +206,10 @@ footer p {
     display: inline;
   }
 
+  .container {
+    height: 35vh;
+  }
+  
   .container img {
     width: 8vw;
     height: auto;
@@ -226,10 +247,7 @@ footer p {
 }
 
 @media all and (max-width: 767px) {
-  body {
-      margin: 0 10vw;
-  }
-  
+
   header {
       height: 11vh;
       padding: 0;
@@ -340,4 +358,5 @@ footer p {
   #icon7{
     display: none;
   }
+ 
 }
