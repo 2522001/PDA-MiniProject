@@ -8,6 +8,10 @@
 
 }
 
+a{
+    text-decoration-line: none;
+}
+
 img{
     background-color: transparent;
 }
