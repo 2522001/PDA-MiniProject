@@ -98,6 +98,7 @@ footer p {
   
   .container {
     margin: 4vh 1vw ;
+    height: 25vh;
     display: flex;
   }
 
