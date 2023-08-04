@@ -593,9 +593,51 @@ footer p {
 
 /* PC */
 @media (min-width: 1024px) {
-    header {
-        height: 11vh;
+    body {
+        margin: 0;
         padding: 0;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0,  0.9);
+    }
+
+    .home img {
+        height: 3vh;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 1vw;
+        font-weight: 700;
+    }
+
+    nav ul {
+        margin-left: 9vw;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0 2vw;
+    }
+
+    nav li a:hover {
+        color: #0046FF;
+    }
+      
+    
+    /* header {
+        height: 11vh;
     }
 
     nav {
@@ -630,12 +672,12 @@ footer p {
 
     nav li a:hover {
         color: #0046FF;
-    }
+    } */
 }
 
 /* Tablet */
 @media all and (min-width: 768px) and (max-width:1023px) {
-    header {
+    /* header {
         height: 11vh;
         padding: 0;
     }
@@ -673,12 +715,54 @@ footer p {
 
     nav li a:hover {
         color: #0046FF;
+    } */
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0,  0.9);
+    }
+
+    .home img {
+        height: 3vh;
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 1vw;
+        font-weight: 700;
+    }
+
+    nav ul {
+        margin-left: 9vw;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0 2vw;
+    }
+
+    nav li a:hover {
+        color: #0046FF;
     }
 }
 
 /* Mobile */
 @media all and (max-width: 768px) {
-    header {
+    /* header {
         height: 11vh;
         padding: 0;
     }
@@ -718,6 +802,44 @@ footer p {
     nav li a:hover {
         color: #0046FF;
         font-weight: bold;
+    } */
+
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 1vw;
+        padding-top: 2vh;
+        font-weight: 700;
+    }
+
+    .home img {
+        height: 3vh;
+        padding: 0;
+        padding-right: 0.6vw;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0,  0.9);
+    }
+
+
+
+    ul {
+        display: none;
     }
 
     .pro-content .who,
