@@ -157,6 +157,14 @@ footer p {
     padding: 0;
     color: #E4E4E5;
   }
+  
+  nav {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    padding: 1vh 0;
+  }
 
   .home {
     display: flex;
@@ -256,12 +264,11 @@ footer p {
   }
 
   nav {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-evenly;
-      font-size: 0.5rem;
-      padding: 1vh 0;
-      color: #E4E4E5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 0.5rem;
+    padding: 1vh 0;
   }
   
   .home {
@@ -279,17 +286,17 @@ footer p {
       padding-right: 0.6vw;
   }
   
+  
   nav ul {
       margin-left: 5vw;
   }
-  
+
   nav li {
       text-align: right;
       list-style: none;
       padding: 0 2vw;
-      color: #E4E4E5;
   }
-  
+
   nav li a {
       text-decoration: none;
       color: #E4E4E5;

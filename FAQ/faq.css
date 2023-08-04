@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+footer div {
+  background-color: #1a1f27;
+  padding: 20px;
+}
+
+footer p {
+  color: #5f6670;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+.mark {
+  width: 150px;
+}
+
+.logo-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (min-width: 1024px) {
+
+  header {
+      height: 11vh;
+      padding: 0;
+      color: #E4E4E5;
+  }
+  
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: 0.95rem;
+      padding: 1vh 0;
+      color: #E4E4E5;
+  }
+  
+  .home {
+      display: flex;
+      align-items: center;
+      padding: 1vw;
+      font-weight: 700;
+      color: #E4E4E5;
+  }
+  
+  .home img {
+      height: 3vh;
+      padding: 0;
+      padding-right: 0.4rem;
+  }
+  
+  nav ul {
+      margin-left: 10vw;
+  }
+  
+  nav li {
+      display: inline-block;
+      padding: 0 2vw;
+  }
+  
+  nav li a {
+      text-decoration: none;
+      color: #E4E4E5;
+  }
+  
+  .title {
+      margin: 7vh 0 7vh 7vw;
+      display: flex;
+      align-items: center;
+      color: #E4E4E5;
+  }
+  .title img {
+      height: 12vh;
+      padding: 0;
+  }
+  .title p {
+    font-size: 0.9rem;
+    color: #9E9EA3;
+    margin-top: 0.7vh;
+    padding-left: 0.3vw;
+  }
+  .title_text {
+      display: inline-block;
+      padding: 0;
+      color: #E4E4E5;
+  }
+  
+  .title h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding-left: 1.1vw;
+      color: #E4E4E5;
+  }
+  
+  #wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 5vh;
+  }
+
+  ul li {
+    list-style:none;
+    margin: 1vw;
+  }
+
+  ul {
+    justify-content: center;
+    align-items: center;
+  }
+
+  li label, li div {
+    margin-right: 5vw; 
+    padding: 1vw;
+  }
+
+  input[id*="answer"] {
+    display:none;
+  }
+
+  input[id*="answer"] + label{
+    display: block;
+    padding: 1.5vh 10vw;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius:5vw;
+    color: #E4E4E5;
+  }
+
+  input[id*="answer"] + label + div {
+    height: 0vh;
+    overflow: hidden;
+  }
+
+  input[id*="answer"] + label + div p {
+    display:inline-block;
+    width: 50vw;
+    height: 10vh;   /*글씨 색이 없어야 함*/
+  }
+  input[id*="answer"]:checked + label + div {
+    border-radius:1.5vw;
+    width: 50vw;
+    height: 10vh;
+    border: 2px solid white;
+    border-top: 0;
+    color: #E4E4E5;
+  }
+  input[id*="answer"]:checked + label {
+    background: #0046FF;
+    border: solid 2px white;
+    color: #E4E4E5;
+  }
+  .info {
+    padding: 2.5vw;
+    color: #E4E4E5;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width:1023px) {
+
+  header {
+      height: 11vh;
+      padding: 0;
+      color: #E4E4E5;
+  }
+  
+  nav {
+      display: flex;
+      align-items:flex-start;
+      justify-content: space-evenly;
+      font-size: 0.85rem;
+      padding: 1vh 0;
+      color: #E4E4E5;
+  }
+  
+  .home {
+      display: flex;
+      align-items: center;
+      padding: 1vw;
+      padding-top: 2vh;
+      font-weight: 700;
+      color: #E4E4E5;
+  }
+  
+  .home img {
+      height: 3vh;
+      padding: 0;
+      padding-right: 0.6vw;
+  }
+  
+  nav ul {
+      margin-left: 29vw;
+      color: #E4E4E5;
+  }
+  
+  nav li {
+      text-align: right;
+      list-style: none;
+      padding: 0 2vw;
+      color: #E4E4E5;
+  }
+  
+  nav li a {
+      text-decoration: none;
+      color: #E4E4E5;
+  }
+
+  nav li a:hover {
+      color: #0046FF;
+  }
+  
+  .title {
+      margin: 7vh 0 7vh 7vw;
+      display: flex;
+      align-items: center;
+      color: #E4E4E5;
+  }
+  
+  .title img {
+      height: 10vh;
+      padding: 0;
+  }
+  
+  .title_text {
+      display: inline-block;
+      padding: 0;
+      color: #E4E4E5;
+  }
+  
+  .title h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding-left: 1.1vw;
+      color: #E4E4E5;
+  }
+  
+  .title p {
+      font-size: 0.9rem;
+      color: #9E9EA3;
+      margin-top: 0.7vh;
+      padding-left: 1.3vw;
+      color: #E4E4E5;
+  }
+
+  #wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 5vh;
+  }
+
+  ul li {
+    list-style:none;
+    margin: 1vw;
+  }
+
+  ul {
+    justify-content: center;
+    align-items: center;
+  }
+
+  li label, li div {
+    margin-right: 5vw; 
+    padding: 1vw;
+  }
+
+  input[id*="answer"] {
+    display:none;
+  }
+  input[id*="answer"] + label{
+    display: block;
+    padding: 1.5vh 10vw;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius:5vw;
+    color: #E4E4E5;
+  }
+  input[id*="answer"] + label + div {
+    height: 0vh;
+    transition:all .35s;
+    overflow: hidden;
+  }
+  input[id*="answer"] + label + div p {
+    display:inline-block;
+    width: 50wh;
+    height: 10vh;   /*글씨 색이 없어야 함*/
+  }
+  input[id*="answer"]:checked + label + div {
+    border-radius:1.5vw;
+    width: 50wh;
+    height: 10vh;
+    border: 2px solid white;
+    border-top: 0;
+    color: #E4E4E5;
+  }
+  input[id*="answer"]:checked + label {
+    background: #0046FF;
+    border: solid 2px white;
+    color: #E4E4E5;
+  }
+  .info {
+    padding: 2.5vw;
+    color: #E4E4E5;
+  }
+}
+
+@media all and (max-width: 767px) {
+
+  header {
+      height: 11vh;
+      padding: 0;
+      color: #E4E4E5;
+  }
+  
+  nav {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      font-size: 0.5rem;
+      padding: 1vh 0;
+      color: #E4E4E5;
+  }
+  
+  .home {
+      display: flex;
+      align-items: center;
+      padding: 1vw;
+      padding-top: 2vh;
+      font-weight: 700;
+      color: #E4E4E5;
+  }
+  
+  .home img {
+      height: 3vh;
+      padding: 0;
+      padding-right: 0.6vw;
+  }
+  
+  nav ul {
+      margin-left: 5vw;
+  }
+  
+  nav li {
+      text-align: right;
+      list-style: none;
+      padding: 0 2vw;
+      color: #E4E4E5;
+  }
+  
+  nav li a {
+      text-decoration: none;
+      color: #E4E4E5;
+  }
+
+  nav li a:hover {
+      color: #0046FF;
+  }
+  
+  .title {
+      margin: 7vh 0 7vh 7vw;
+      display: flex;
+      align-items: center;
+      color: #E4E4E5;
+  }
+  
+  .title img {
+      display: none;
+  }
+  
+  .title_text {
+      display: inline-block;
+      padding: 0;
+      color: #E4E4E5;
+  }
+  
+  .title h1 {
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin: 0;
+      padding-left: 1.1vw;
+      color: #E4E4E5;
+  }
+  
+  .title p {
+      display: none;
+      color: #E4E4E5;
+  }
+
+  #wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 5vh;
+  }
+
+  ul li {
+    list-style:none;
+    margin: 1vw;
+  }
+
+  ul {
+    justify-content: center;
+    align-items: center;
+  }
+
+  li label, li div {
+    margin-right: 5vw; 
+    padding: 1vw;
+  }
+
+  input[id*="answer"] {
+    display:none;
+  }
+  input[id*="answer"] + label{
+    display: block;
+    padding: 1.5vh 10vw;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius:5vw;
+    color: #E4E4E5;
+  }
+  input[id*="answer"] + label + div {
+    height: 0vh;
+    transition:all .35s;
+    overflow: hidden;
+  }
+  input[id*="answer"] + label + div p {
+    display:inline-block;
+    width: 50wh;
+    height: 10vh;   /*글씨 색이 없어야 함*/
+  }
+  input[id*="answer"]:checked + label + div {
+    border-radius:1.5vw;
+    width: 50wh;
+    height: 10vh;
+    border: 2px solid white;
+    border-top: 0;
+    color: #E4E4E5;
+  }
+  input[id*="answer"]:checked + label {
+    background: #0046FF;
+    border: solid 2px white;
+    color: #E4E4E5;
+  }
+  .info {
+    padding: 2.5vw;
+    color: #E4E4E5;
+  }
+}
