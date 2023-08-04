@@ -1,10 +1,26 @@
 * {
-  background-color: #101012;
 	color: #E4E4E5;
 }
 
 br.break-m, br.break-t {
 	display: none;
+}
+
+body {
+  background-color: #101013;
+}
+
+footer div {
+  background-color: #1a1f27;
+  padding: 20px;
+}
+
+footer p {
+  color: #5f6670;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
@@ -57,11 +73,17 @@ br.break-m, br.break-t {
   nav li a:hover {
       color: #0046FF;
   }
+  
+  .container {
+    margin: 4vh 1vw ;
+    display: flex;
+  }
 
   .container img{
     width: 8vw;
     height: auto;
     margin-top: 1vw 2vh;
+    background: transparent;
   }
 
   .container img:hover{
@@ -73,10 +95,11 @@ br.break-m, br.break-t {
     height: 20vh;
     text-align: center;
     position: relative;
+    z-index: -1;
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #E4E4E5;
   }  
 
@@ -154,9 +177,9 @@ br.break-m, br.break-t {
     height: 20vh;
     text-align: center;
     position: relative;
+    z-index: 100;
   }
   
-
   h1 {
     font-size: 3rem;
     color: #E4E4E5;
@@ -170,6 +193,7 @@ br.break-m, br.break-t {
     width: 8vw;
     height: auto;
     margin: 1vw 2vh;
+    background: transparent;
   }
 
   .container img:hover{
@@ -261,6 +285,7 @@ br.break-m, br.break-t {
     height: 20vh;
     text-align: center;
     position: relative;
+    z-index: 10;
   }
 
   h1 {
@@ -273,10 +298,17 @@ br.break-m, br.break-t {
     display: inline-block;
   }
 
+  .container {
+    margin: 4vh 1vw ;
+    display: flex;
+  }
+
   .container img {
     width: auto;
-    height: 5vh;
+    height: 50vh;
     margin: 1vw 2vh;
+    display: inline-block;
+    background: transparent;
   }
 
   .container img:hover{
@@ -284,24 +316,28 @@ br.break-m, br.break-t {
   }
 
   #icon1{    
-    position: absolute; bottom: 71%; left: 8%;
+    position: absolute; bottom: -1vh; left: 45vw;
+    z-index: -1;
   }
-  #icon2{  
-    position: absolute; bottom: 60%; left: 2%;
+  #icon2{ 
+    display: none; 
   }
   #icon3{
-    position: absolute; top: 52%; left: 10%;
+    display: none;
   }
   #icon4{
-    position: absolute; top: 55%; left: 40%;
+    position: absolute;  bottom: 60vh; left: -10vw;
+    width: auto;
+    height: 25vh;
+    z-index: -1;
   }
   #icon5{
-    position: absolute; top: 50%; left: 70%;
+    display: none;
   }
   #icon6{
-    position: absolute; bottom: 60%; left: 74%;
+    display: none;
   }
   #icon7{
-    position: absolute; bottom: 71%; left: 72%;
+    display: none;
   }
 }
