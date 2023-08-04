@@ -40,13 +40,6 @@ footer p {
     justify-content: center;
 }
 
-header {
-    height: 11vh;
-    padding: 0;
-
-}
-
-
 nav {
     display: flex;
     align-items: center;
@@ -75,10 +68,6 @@ nav ul {
 nav li {
     display: inline-block;
     padding: 0 2vw;
-}
-
-nav li a {
-    text-decoration: none;
 }
 
 nav li a:hover {
