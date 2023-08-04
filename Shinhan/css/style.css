@@ -100,7 +100,7 @@ header {
 
 .continuous-scroll {
     width: 100%;
-    #fff-space: nowrap;
+    white-space: nowrap;
     overflow: hidden;
     animation: scrollText 30s linear infinite;
 }
