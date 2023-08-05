@@ -2,7 +2,7 @@
 
 김민서
 * introuduceTeam.html, introduceTeam.css, introduceMakers.html, introduceMakers.css, minseo.html, younghyun.html, gaeun.html, yejin.html, introduceMakersDetail.css 작성
-* 발표 개요 및 ppt 1~9, 17~33 페이지 작성
+* 발표 개요 및 ppt 1 ~ 9, 17 ~ 33 페이지 작성
 
 나영현
 * intro.html intro.css, faq.html, faq.css 작성
@@ -12,7 +12,7 @@
 
 추예진
 * shinhansec.html, style.css 작성
-* ppt 10~17 페이지 작성
+* ppt 10 ~ 17 페이지 작성
 
 기획 및 프로토 타입 작성(오븐)은 파트를 나누어 함께 진행했습니다.🤓
 
