@@ -2,7 +2,7 @@
 
 김민서
 * introuduceTeam.html, introduceTeam.css, introduceMakers.html, introduceMakers.css, minseo.html, younghyun.html, gaeun.html, yejin.html, introduceMakersDetail.css 작성
-* 발표 개요 및 ppt 1 ~ 9, 17 ~ 33 페이지 작성
+* 발표 개요 및 ppt 1 ~ 9, 18 ~ 33 페이지 작성
 
 나영현
 * intro.html intro.css, faq.html, faq.css 작성
